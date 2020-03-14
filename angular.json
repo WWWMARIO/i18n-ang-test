@@ -4,6 +4,7 @@
   "newProjectRoot": "projects",
   "projects": {
     "my-first-app": {
+      
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
