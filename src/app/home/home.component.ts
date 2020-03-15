@@ -11,6 +11,7 @@ import { AuthService } from '../auth.service';
 export class HomeComponent implements OnInit {
 
   constructor(private router: Router, private authService: AuthService) { }
+  loggedIn=false;
 
   ngOnInit() {
   }
@@ -22,9 +23,12 @@ export class HomeComponent implements OnInit {
 
   onLogin() {
     this.authService.login();
+    this.loggedIn=true;
+
   }
 
   onLogout() {
     this.authService.logout();
+    this.loggedIn=false;
   }
 }

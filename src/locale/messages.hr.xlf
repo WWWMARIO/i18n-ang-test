@@ -4,6 +4,7 @@
     <body>
       <trans-unit id="92eee6be6de0b11c924e3ab27db30257159c0a7c" datatype="html">
         <source>Home</source>
+        <target>Doma</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
           <context context-type="linenumber">8</context>
@@ -11,6 +12,7 @@
       </trans-unit>
       <trans-unit id="aa4da924506fa8a7942007a529cc2ec8d500a093" datatype="html">
         <source>Servers</source>
+        <target>Serveri</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
           <context context-type="linenumber">12</context>
@@ -18,6 +20,7 @@
       </trans-unit>
       <trans-unit id="4d13a9cd5ed3dcee0eab22cb25198d43886942be" datatype="html">
         <source>Users</source>
+        <target>Korisnici</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
           <context context-type="linenumber">16</context>
@@ -25,6 +28,7 @@
       </trans-unit>
       <trans-unit id="0851e2ed35a9689428007c92861461a24114cc55" datatype="html">
         <source>Welcome to Server Manager 4.0</source>
+        <target>Dobrodošli u Server Manager 4.0</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
           <context context-type="linenumber">1</context>
@@ -32,6 +36,7 @@
       </trans-unit>
       <trans-unit id="4cb6b8f75d42def849cf2fd326ca3f665102702e" datatype="html">
         <source>Manage your Servers and Users.</source>
+        <target>Upravljajte serverima i korisnicima</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
           <context context-type="linenumber">2</context>
@@ -39,6 +44,7 @@
       </trans-unit>
       <trans-unit id="99f7197f710db15e73aeb5187d0ff3885add9299" datatype="html">
         <source>User logged in</source>
+        <target>Korisnik ulogiran</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
           <context context-type="linenumber">3</context>
@@ -46,6 +52,7 @@
       </trans-unit>
       <trans-unit id="1be302839c9ae29734594b7f7be8674c0fec5abe" datatype="html">
         <source>User not logged in</source>
+        <target>Korisnik nije ulogiran</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
           <context context-type="linenumber">4</context>
@@ -53,6 +60,7 @@
       </trans-unit>
       <trans-unit id="5102058c319baa5b3573ef0a46bded30065aad61" datatype="html">
         <source>Load Server 1</source>
+        <target>Učitaj Server 1</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
           <context context-type="linenumber">5</context>
@@ -60,6 +68,7 @@
       </trans-unit>
       <trans-unit id="6765b4c916060f6bc42d9bb69e80377dbcb5e4e9" datatype="html">
         <source>Login</source>
+        <target>Ulogiraj</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
           <context context-type="linenumber">6</context>
@@ -67,6 +76,7 @@
       </trans-unit>
       <trans-unit id="bb694b49d408265c91c62799c2b3a7e3151c824d" datatype="html">
         <source>Logout</source>
+        <target>Logoutaj</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
           <context context-type="linenumber">7</context>
@@ -74,6 +84,7 @@
       </trans-unit>
       <trans-unit id="793266c2559148e05aa11707d5caacbd0012ad08" datatype="html">
         <source>User with ID </source>
+        <target>Korisnik sa ID-om</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/users/user/user.component.html</context>
           <context context-type="linenumber">1</context>
@@ -81,6 +92,7 @@
       </trans-unit>
       <trans-unit id="b914ea42f377bb6ce2e1eda9723b278fe33cd1f5" datatype="html">
         <source> loaded.</source>
+        <target> učitan.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/users/user/user.component.html</context>
           <context context-type="linenumber">1</context>
@@ -88,6 +100,7 @@
       </trans-unit>
       <trans-unit id="e06f155ce1237520a9d9946910d7d13728804484" datatype="html">
         <source>User name is </source>
+        <target>Korisničko ime je </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/users/user/user.component.html</context>
           <context context-type="linenumber">2</context>
@@ -95,6 +108,7 @@
       </trans-unit>
       <trans-unit id="f83ead7fcaa4cd64944cd6de7d94e3f8e09cb994" datatype="html">
         <source>Load Anna (10)</source>
+        <target>Učitaj Anna (10)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/users/user/user.component.html</context>
           <context context-type="linenumber">4</context>
@@ -102,6 +116,7 @@
       </trans-unit>
       <trans-unit id="2a592f760e9b210b9f5e64e0e4c190dc9b692435" datatype="html">
         <source>You&apos;re not allowed to edit!</source>
+        <target>Nije vam dopušteno uređivanje</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/servers/edit-server/edit-server.component.html</context>
           <context context-type="linenumber">1</context>
@@ -109,6 +124,7 @@
       </trans-unit>
       <trans-unit id="3ab924fba6d8107a6b176a80afd8837da035de15" datatype="html">
         <source>Server Name</source>
+        <target>Ime servera</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/servers/edit-server/edit-server.component.html</context>
           <context context-type="linenumber">4</context>
@@ -116,6 +132,7 @@
       </trans-unit>
       <trans-unit id="9c4acf59cf66dbfd0510e5b38b6681e46fba2a55" datatype="html">
         <source>Server Status</source>
+        <target>Status servera</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/servers/edit-server/edit-server.component.html</context>
           <context context-type="linenumber">12</context>
@@ -123,6 +140,7 @@
       </trans-unit>
       <trans-unit id="f96ccbb54a3cdb84da625e10074258a29ee6b19c" datatype="html">
         <source>Online</source>
+        <target>Uključen</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/servers/edit-server/edit-server.component.html</context>
           <context context-type="linenumber">17</context>
@@ -130,6 +148,7 @@
       </trans-unit>
       <trans-unit id="2b34680062c4aed90c4d846eab42d6e99501b783" datatype="html">
         <source>Offline</source>
+        <target>Isključen</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/servers/edit-server/edit-server.component.html</context>
           <context context-type="linenumber">18</context>
@@ -137,6 +156,7 @@
       </trans-unit>
       <trans-unit id="1b1bb2fd257ab4e17f4cac3b680fd244ae992ce6" datatype="html">
         <source>Update Server</source>
+        <target>Ažuriraj server</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/servers/edit-server/edit-server.component.html</context>
           <context context-type="linenumber">23</context>
@@ -144,6 +164,7 @@
       </trans-unit>
       <trans-unit id="1212bee0eef4f892f47a4ebeddf6fb177936e5be" datatype="html">
         <source>Server status is</source>
+        <target>Status servera je </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/servers/server/server.component.html</context>
           <context context-type="linenumber">2</context>
@@ -151,6 +172,7 @@
       </trans-unit>
       <trans-unit id="7151796517be5f7da32d26bc5f0dc4103be3ee2f" datatype="html">
         <source>Edit Server</source>
+        <target>Uredi server</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/servers/server/server.component.html</context>
           <context context-type="linenumber">3</context>
@@ -158,6 +180,7 @@
       </trans-unit>
       <trans-unit id="4771cbb390e89efa4c803c946ad644074a7391f0" datatype="html">
         <source>This page was not found!</source>
+        <target>Stranica nije pronađena</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/page-not-found/page-not-found.component.html</context>
           <context context-type="linenumber">1</context>

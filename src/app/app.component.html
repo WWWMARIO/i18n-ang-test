@@ -1,3 +1,8 @@
+<div style="display:flex; justify-content: flex-end">
+  <div>{{currentLang}}</div>
+  <a href="/hr/" *ngIf="currentLang!='hr'"> Hrvatski</a>
+  <a href="/" *ngIf="currentLang!='en-US'"> Engleski</a>
+</div>
 <div class="container">
   <div class="row">
     <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
@@ -5,15 +10,15 @@
         <li role="presentation"
             routerLinkActive="active"
             [routerLinkActiveOptions]="{exact: true}">
-          <a routerLink="/">Home</a>
+          <a routerLink="/" i18n>Home</a>
         </li>
         <li role="presentation"
             routerLinkActive="active">
-          <a routerLink="servers">Servers</a>
+          <a routerLink="servers" i18n>Servers</a>
         </li>
         <li role="presentation"
             routerLinkActive="active">
-          <a [routerLink]="['users']">Users</a>
+          <a [routerLink]="['users']" i18n>Users</a>
         </li>
       </ul>
     </div>
@@ -24,3 +29,5 @@
     </div>
   </div>
 </div>
+
+

@@ -4,7 +4,13 @@
   "newProjectRoot": "projects",
   "projects": {
     "my-first-app": {
-      
+      "i18n": {
+        "sourceLocale": "en",
+        "locales": {
+          "hr": "src/locale/messages.hr.xlf"
+        }
+      },
+
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -14,6 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "aot": true,
             "outputPath": "dist/my-first-app",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -31,6 +38,12 @@
           },
           "configurations": {
             "production": {
+              "budgets": [
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb"
+                }
+              ],
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
@@ -46,7 +59,11 @@
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true
+            },
+            "hr": {
+              "localize": ["hr"]
             }
+
           }
         },
         "serve": {
@@ -57,7 +74,11 @@
           "configurations": {
             "production": {
               "browserTarget": "my-first-app:build:production"
+            },
+            "hr": {
+              "browserTarget": "my-first-app:build:hr"
             }
+
           }
         },
         "extract-i18n": {
